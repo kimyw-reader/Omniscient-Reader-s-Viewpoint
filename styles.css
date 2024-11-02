@@ -1,5 +1,70 @@
 footer p {
-    font-size: 19px;
-    color: #888;
-    margin-top: 20px;
+    font-size: 17px;
+    color: #0000007e;
+    margin-top: 10px;
+}
+
+.small-icon {
+    width: 60px;
+    height: auto;
+    margin-right: 4px;
+    vertical-align: middle; 
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, #515399, #26242d);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ .container {
+    text-align: center;
+    width: 300px;
+    background: rgb(130, 130, 131);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgb(31, 33, 51);
+} 
+.logo {
+    width: 300px;
+    margin-bottom: 0px;
+}
+profile h1 {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+.links .link {
+    display: block;
+    text-decoration: none;
+    background-color: #8f8f93;
+    color: #333;
+    padding: 15px 0;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+}
+.links .link:hover {
+    background-color: #f1f1f1;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+.call-button {
+    display: block;
+    text-decoration: none;
+    background-color: #86868d;
+    color: #333;
+    padding: 15px 0;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+}
+.call-button:hover {
+    background-color: #f1f1f1;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
 }
